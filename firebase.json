@@ -1,0 +1,21 @@
+
+{
+  "hosting": {
+    "site": "roomres-aevkx",
+    "source": ".",
+    "rewrites": [
+      {
+        "source": "**",
+        "apphosting": {
+          "backendId": "roomres",
+          "region": "us-central1"
+        }
+      }
+    ],
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
